@@ -22,3 +22,13 @@ def Horas_a_Segundos(hr):
 def Horas_a_Minutos(hr):
     min = hr * 60
     return min
+
+if __name__ == "__main__":
+    # Ejemplos de uso
+    print("Ejemplos de conversión de masa:")
+    print("14 segundos a minutos:", Segundos_a_Minutos(14))
+    print("20 segundos a horas:", Segundos_a_Horas(20))
+    print("10 minutos a segundos:", Minutos_a_Segundos(10))
+    print("18 minutos a horas:", Minutos_a_Horas(18))
+    print("25 horas a segundos:",Horas_a_Segundos(25))
+    print("15 horas a minutos:", Horas_a_Minutos(15))
